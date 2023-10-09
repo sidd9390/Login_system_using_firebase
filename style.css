@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4169E1;
+    font-family: 'Exo 2', sans-serif;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-container{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+.login-container input{
+    padding: 7px 20px;
+    border: 1px solid black;
+    outline: 0px;
+}
+.login-container button{
+    padding: 7px 20px;
+    color: white;
+    background-color: #4169E1;
+    border: 0px;
+    cursor: pointer;
+}
